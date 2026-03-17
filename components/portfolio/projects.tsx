@@ -20,11 +20,54 @@ const projects = [
     icon: Brain,
     date: "Aug 2025",
     githubUrl: "https://github.com/Sunnykumar70040",
-    liveUrl: null,
-    // Add your project screenshots here
+    liveUrl: "https://res.cloudinary.com/dibvhxwgc/image/upload/v1773762383/Screenshot_2026-03-17_210031_bfnkqn.png",
+    // Paste your external image links here (Google Drive, Cloudinary, Imgur, etc.)
     screenshots: [
-      // "/images/projects/finance-1.png",
-      // "/images/projects/finance-2.png",
+      // "https://drive.google.com/uc?export=view&id=YOUR_FILE_ID",
+      // "https://res.cloudinary.com/your-cloud/image/upload/v1234/image.png",
+      "https://res.cloudinary.com/dibvhxwgc/image/upload/v1773762383/Screenshot_2026-03-17_210031_bfnkqn.png",
+    ],
+  },
+  {
+    title: "AI-Based Finance Monitoring System",
+    description:
+      "An AI-powered system to analyze user expenses, predict monthly budgets, and generate personalized financial insights. Features automated debt tracking and savings recommendations using machine learning and rule-based logic.",
+    highlights: [
+      "Real-time monitoring dashboard with dynamic visualizations",
+      "Automated alerts and performance tracking",
+      "ML-powered budget predictions",
+    ],
+    technologies: ["Python", "Machine Learning", "NLP"],
+    icon: Brain,
+    date: "Aug 2025",
+    githubUrl: "https://github.com/Sunnykumar70040",
+    liveUrl: "https://res.cloudinary.com/dibvhxwgc/image/upload/v1773762383/Screenshot_2026-03-17_210031_bfnkqn.png",
+    // Paste your external image links here (Google Drive, Cloudinary, Imgur, etc.)
+    screenshots: [
+      // "https://drive.google.com/uc?export=view&id=YOUR_FILE_ID",
+      // "https://res.cloudinary.com/your-cloud/image/upload/v1234/image.png",
+      "https://res.cloudinary.com/dibvhxwgc/image/upload/v1773762383/Screenshot_2026-03-17_210031_bfnkqn.png",
+    ],
+  },
+  {
+    title: "AI-Based Finance Monitoring System",
+    description:
+      "An AI-powered system to analyze user expenses, predict monthly budgets, and generate personalized financial insights. Features automated debt tracking and savings recommendations using machine learning and rule-based logic.",
+    highlights: [
+      "Real-time monitoring dashboard with dynamic visualizations",
+      "Automated alerts and performance tracking",
+      "ML-powered budget predictions",
+    ],
+    technologies: ["Python", "Machine Learning", "NLP"],
+    icon: Brain,
+    date: "Aug 2025",
+    githubUrl: "https://github.com/Sunnykumar70040",
+    liveUrl: "https://res.cloudinary.com/dibvhxwgc/image/upload/v1773762383/Screenshot_2026-03-17_210031_bfnkqn.png",
+    // Paste your external image links here (Google Drive, Cloudinary, Imgur, etc.)
+    screenshots: [
+      // "https://drive.google.com/uc?export=view&id=YOUR_FILE_ID",
+      // "https://res.cloudinary.com/your-cloud/image/upload/v1234/image.png",
+      "https://res.cloudinary.com/dibvhxwgc/image/upload/v1773762383/Screenshot_2026-03-17_210031_bfnkqn.png",
     ],
   },
   {
@@ -40,11 +83,12 @@ const projects = [
     icon: BarChart3,
     date: "Nov 2025",
     githubUrl: null,
-    liveUrl: null,
-    // Add your project screenshots here
+    liveUrl: "https://res.cloudinary.com/dibvhxwgc/image/upload/v1773762018/Screenshot_2026-03-17_204839_uivivo.png",
+    // Paste your external image links here
     screenshots: [
-      // "/images/projects/water-1.png",
-      // "/images/projects/water-2.png",
+      // "https://drive.google.com/uc?export=view&id=YOUR_FILE_ID",
+      // "https://res.cloudinary.com/your-cloud/image/upload/v1234/image.png",
+      "https://res.cloudinary.com/dibvhxwgc/image/upload/v1773762018/Screenshot_2026-03-17_204839_uivivo.png",
     ],
   },
 ]
@@ -121,6 +165,7 @@ export function Projects() {
                             alt={`${project.title} screenshot ${idx + 1}`}
                             fill
                             className="object-cover transition-transform duration-300 group-hover/img:scale-105"
+                            priority
                           />
                           <div className="absolute inset-0 bg-background/60 opacity-0 group-hover/img:opacity-100 transition-opacity flex items-center justify-center">
                             <ZoomIn className="w-6 h-6 text-primary" />
@@ -132,9 +177,9 @@ export function Projects() {
 
                   {/* Placeholder for screenshots if none exist */}
                   {project.screenshots.length === 0 && (
-                    <div className="mb-4 p-4 rounded-lg border border-dashed border-border/50 bg-secondary/30">
+                    <div className="mb-6 p-8 rounded-lg border border-dashed border-border/50 bg-secondary/30">
                       <p className="text-xs text-muted-foreground text-center">
-                        Add screenshots to /images/projects/ and update the screenshots array
+                        Paste external image links from Google Drive, Cloudinary, Imgur, etc.
                       </p>
                     </div>
                   )}

@@ -1,7 +1,7 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
-import { Download, Github, Linkedin, Mail } from "lucide-react"
+import { Download, Github, Linkedin, Mail, Eye } from "lucide-react"
 import Link from "next/link"
 import Image from "next/image"
 
@@ -35,6 +35,12 @@ export function Hero() {
                 <Download size={18} />
                 Download CV
               </a>
+            </Button>
+            <Button variant="outline" size="lg" asChild className="gap-2">
+              <Link href="https://drive.google.com/file/d/1KoOOvRGzFBOLpp0wHMgDKHz_8PE2Sdnp/view" target="_blank" rel="noopener noreferrer">
+                <Eye size={18} />
+                View in Drive
+              </Link>
             </Button>
             <Button variant="outline" size="lg" asChild>
               <Link href="#contact">Get in Touch</Link>

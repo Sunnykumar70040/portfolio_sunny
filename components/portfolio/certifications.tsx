@@ -12,15 +12,15 @@ const certifications = [
     issuer: "HackerRank",
     date: "2023",
     skills: ["Python", "Problem Solving"],
-    // Add your certificate screenshot path here
-    screenshot: null, // e.g., "/images/certs/python-hackerrank.png"
+    // Paste external image links here (Google Drive, Cloudinary, Imgur, etc.)
+    screenshot: null, // e.g., "https://drive.google.com/uc?export=view&id=YOUR_FILE_ID"
   },
   {
     title: "SQL (Basic)",
     issuer: "HackerRank",
     date: "2023",
     skills: ["SQL", "Database"],
-    screenshot: null,
+    screenshot: null, // e.g., "https://res.cloudinary.com/your-cloud/image/upload/v1234/image.png"
   },
   {
     title: "Introduction to Machine Learning",
@@ -91,18 +91,24 @@ export function Certifications() {
                     <div className="flex items-start justify-between mb-4">
                       <div
                         className={`w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center transition-all duration-300 ${
-                          hoveredCard === index ? "bg-primary/20 scale-110 rotate-3" : ""
+                          hoveredCard === index
+                            ? "bg-primary/20 scale-110 rotate-3"
+                            : ""
                         }`}
                       >
                         <Award
                           className={`w-6 h-6 text-primary transition-all duration-300 ${
-                            hoveredCard === index ? "scale-110" : ""
+                            hoveredCard === index
+                              ? "scale-110"
+                              : ""
                           }`}
                         />
                       </div>
                       <ExternalLink
                         className={`w-4 h-4 text-muted-foreground transition-all duration-300 ${
-                          hoveredCard === index ? "opacity-100 translate-x-0" : "opacity-0 translate-x-2"
+                          hoveredCard === index
+                            ? "opacity-100 translate-x-0"
+                            : "opacity-0 translate-x-2"
                         }`}
                       />
                     </div>
@@ -126,14 +132,16 @@ export function Certifications() {
                     ) : (
                       <div className="w-full aspect-video rounded-lg border border-dashed border-border/50 bg-secondary/30 flex items-center justify-center mb-4">
                         <p className="text-xs text-muted-foreground text-center px-2">
-                          Add screenshot to display
+                          Paste external link (Google Drive, Cloudinary, Imgur)
                         </p>
                       </div>
                     )}
 
                     <h3
                       className={`font-semibold text-lg mb-1 transition-colors duration-300 ${
-                        hoveredCard === index ? "text-primary" : ""
+                        hoveredCard === index
+                          ? "text-primary"
+                          : ""
                       }`}
                     >
                       {cert.title}
