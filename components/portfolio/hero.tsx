@@ -17,7 +17,7 @@ export function Hero() {
           <div className="space-y-2">
             <p className="text-primary font-medium">Hello, I am</p>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground text-balance">
-              Sunny kumar
+              Sunny Kumar
             </h1>
             <h2 className="text-xl sm:text-2xl text-muted-foreground">
               Software Developer & CSE Student
