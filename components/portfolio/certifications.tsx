@@ -8,47 +8,47 @@ import Image from "next/image"
 
 const certifications = [
   {
-    title: "Python (Basic)",
-    issuer: "HackerRank",
-    date: "2023",
-    skills: ["Python", "Problem Solving"],
+    title: "Data Structures & Algorithms",
+    issuer: "Cipherschool",
+    date: "2025",
+    skills: ["DSA", "Problem Solving", "C++"],
+    screenshot: "https://res.cloudinary.com/dibvhxwgc/image/upload/v1773773292/Screenshot_2026-03-18_001852_qncfxo.png",
+  },
+  {
+    title: "Build Generative AI Apps and Solutions with No-Code Tools",
+    issuer: "Infosys Springboard",
+    date: "2025",
+    skills: ["Generative AI", "AI Tools", "Prompt Engineering"],
+    screenshot: "https://res.cloudinary.com/dibvhxwgc/image/upload/v1773771143/Screenshot_2026-03-17_234314_wzpmsg.png",
+  },
+  {
+    title: "Data Science & AI Masters 2025 - From Python To Gen AI",
+    issuer: "Udemy",
+    date: "2025",
+    skills: ["Python", "Problem Solving", "Data Science", "AI"],
     // Paste external image links here (Google Drive, Cloudinary, Imgur, etc.)
-    screenshot: null, // e.g., "https://drive.google.com/uc?export=view&id=YOUR_FILE_ID"
+    screenshot: "https://res.cloudinary.com/dibvhxwgc/image/upload/v1773775393/Screenshot_2026-03-18_005321_xg2igp.png", // e.g., "https://drive.google.com/uc?export=view&id=YOUR_FILE_ID"
   },
   {
-    title: "SQL (Basic)",
-    issuer: "HackerRank",
-    date: "2023",
-    skills: ["SQL", "Database"],
-    screenshot: null, // e.g., "https://res.cloudinary.com/your-cloud/image/upload/v1234/image.png"
+    title: "ChatGPT-4 Prompt Engineering for Beginners",
+    issuer: "Infosis Springboard",
+    date: "2025",
+    skills: ["ChatGPT-4", "Prompt Engineering", "AI Tools"],
+    screenshot: "https://res.cloudinary.com/dibvhxwgc/image/upload/v1773771143/Screenshot_2026-03-17_234249_sullhe.png", 
   },
   {
-    title: "Introduction to Machine Learning",
-    issuer: "Coursera / Stanford",
-    date: "2023",
-    skills: ["Machine Learning", "AI", "Data Science"],
-    screenshot: null,
+    title: "Model Management: Building Machine Learning Models & Pipelines",
+    issuer: "Infosis Springboard",
+    date: "2025",
+    skills: ["Machine Learning", "AI", "Data Science", "Model Management"],
+    screenshot: "https://res.cloudinary.com/dibvhxwgc/image/upload/v1773771143/Screenshot_2026-03-17_234230_cbps1m.png",
   },
   {
     title: "Web Development Fundamentals",
-    issuer: "Udemy",
-    date: "2022",
+    issuer: "freeCodeCamp",
+    date: "2023",
     skills: ["HTML", "CSS", "JavaScript"],
-    screenshot: null,
-  },
-  {
-    title: "React.js Essential Training",
-    issuer: "LinkedIn Learning",
-    date: "2023",
-    skills: ["React", "Frontend", "JavaScript"],
-    screenshot: null,
-  },
-  {
-    title: "Data Structures & Algorithms",
-    issuer: "GeeksforGeeks",
-    date: "2023",
-    skills: ["DSA", "Problem Solving", "C++"],
-    screenshot: null,
+    screenshot: "https://res.cloudinary.com/dibvhxwgc/image/upload/v1773771142/Screenshot_2026-03-17_233604_hpmfml.png",
   },
 ]
 

@@ -8,45 +8,45 @@ import Image from "next/image"
 
 const projects = [
   {
-    title: "AI-Based Finance Monitoring System",
+    title: "Daily-Puzzle-Logic-Game",
     description:
-      "An AI-powered system to analyze user expenses, predict monthly budgets, and generate personalized financial insights. Features automated debt tracking and savings recommendations using machine learning and rule-based logic.",
+      "A logic-based Sudoku game designed to challenge problem-solving and critical thinking skills through daily puzzles. Built with an interactive UI to provide a smooth and engaging user experience for users.",
     highlights: [
-      "Real-time monitoring dashboard with dynamic visualizations",
-      "Automated alerts and performance tracking",
-      "ML-powered budget predictions",
+      "Built using React.js for a dynamic and responsive user interface",
+      "Backend powered by Node.js for efficient game logic and data handling",
+      "Interactive Sudoku grid with real-time input validation",
     ],
-    technologies: ["Python", "Machine Learning", "NLP"],
+    technologies: ["React.js", "Node.js", "CSS", "HTML", "JavaScript"],
     icon: Brain,
-    date: "Aug 2025",
-    githubUrl: "https://github.com/Sunnykumar70040",
-    liveUrl: "https://res.cloudinary.com/dibvhxwgc/image/upload/v1773762383/Screenshot_2026-03-17_210031_bfnkqn.png",
+    date: "Feb 2026",
+    githubUrl: "https://github.com/Sunnykumar70040/Daily-Puzzle-Logic-Game",
+    liveUrl: "https://res.cloudinary.com/dibvhxwgc/image/upload/v1773769502/Screenshot_2026-03-17_230727_dxkdwd.png",
     // Paste your external image links here (Google Drive, Cloudinary, Imgur, etc.)
     screenshots: [
       // "https://drive.google.com/uc?export=view&id=YOUR_FILE_ID",
       // "https://res.cloudinary.com/your-cloud/image/upload/v1234/image.png",
-      "https://res.cloudinary.com/dibvhxwgc/image/upload/v1773762383/Screenshot_2026-03-17_210031_bfnkqn.png",
+      "https://res.cloudinary.com/dibvhxwgc/image/upload/v1773769502/Screenshot_2026-03-17_230727_dxkdwd.png",
     ],
   },
   {
-    title: "AI-Based Finance Monitoring System",
+    title: "Talk-with-Corporate",
     description:
-      "An AI-powered system to analyze user expenses, predict monthly budgets, and generate personalized financial insights. Features automated debt tracking and savings recommendations using machine learning and rule-based logic.",
+      "A corporate communication platform designed to enable seamless interaction between users and organizations. Built to provide real-time messaging and structured communication in a professional environment.",
     highlights: [
-      "Real-time monitoring dashboard with dynamic visualizations",
-      "Automated alerts and performance tracking",
-      "ML-powered budget predictions",
+      "Real-time messaging and structured communication",
+      "Professional environment for corporate interactions",
+      "Seamless integration with existing corporate systems",
     ],
-    technologies: ["Python", "Machine Learning", "NLP"],
+    technologies: ["React.js", "Node.js", "Socket.IO", "CSS", "HTML", "JavaScript" , "prisma", "postgresql"],
     icon: Brain,
-    date: "Aug 2025",
-    githubUrl: "https://github.com/Sunnykumar70040",
-    liveUrl: "https://res.cloudinary.com/dibvhxwgc/image/upload/v1773762383/Screenshot_2026-03-17_210031_bfnkqn.png",
+    date: "Mar 2026",
+    githubUrl: "https://github.com/Sunnykumar70040/talkwithCorporate",
+    liveUrl: "https://res.cloudinary.com/dibvhxwgc/image/upload/v1773769501/Screenshot_2026-03-17_231600_xzfoh1.png",
     // Paste your external image links here (Google Drive, Cloudinary, Imgur, etc.)
     screenshots: [
       // "https://drive.google.com/uc?export=view&id=YOUR_FILE_ID",
       // "https://res.cloudinary.com/your-cloud/image/upload/v1234/image.png",
-      "https://res.cloudinary.com/dibvhxwgc/image/upload/v1773762383/Screenshot_2026-03-17_210031_bfnkqn.png",
+      "https://res.cloudinary.com/dibvhxwgc/image/upload/v1773769501/Screenshot_2026-03-17_231600_xzfoh1.png",
     ],
   },
   {

@@ -20,7 +20,7 @@ const educationData = [
   },
   {
     degree: "Matriculation (10th Grade)",
-    institution: "D.A.v Public School",
+    institution: "D.A.V Public School",
     location: "Patan, Bihar",
     period: "2019 - 2020",
     description: "Foundation education with strong academic performance.",
